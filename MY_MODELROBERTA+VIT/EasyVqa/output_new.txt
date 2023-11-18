@@ -1,0 +1,179 @@
+what is the blue shape?
+rectangle
+0
+/DATA/pal14/.local/lib/python3.7/site-packages/easy_vqa/data/train/images/0.png
+(28931, 3)
+(9644, 3)
+(9673, 3)
+Total labels 13
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+2023-10-23 01:22:32.087692: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+/DATA/pal14/.local/lib/python3.7/site-packages/transformers/models/vit/feature_extraction_vit.py:31: FutureWarning: The class ViTFeatureExtractor is deprecated and will be removed in version 5 of Transformers. Please use ViTImageProcessor instead.
+  FutureWarning,
+
+train_steps 20000
+warm_steps 2000.0
+fgf
+  0%|          | 0/10 [00:00<?, ?it/s]
+Epoch 1:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 1
+Training loss: 2.459529546084325
+Train Acc: 0.2725104559123432
+Validation loss: 2.1794291486013804
+Val Acc: 0.4824761509746993
+
+Saving best model
+Epoch 2:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 2
+Training loss: 1.6896984079266122
+Train Acc: 0.5541115066883274
+Validation loss: 1.346012899417751
+Val Acc: 0.6257776856076317
+
+Saving best model
+Epoch 3:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 3
+Training loss: 1.1177929681967635
+Train Acc: 0.6346825204797621
+Validation loss: 0.9668508379269909
+Val Acc: 0.6482787225217752
+
+Saving best model
+Epoch 4:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 4
+Training loss: 0.9828583141058189
+Train Acc: 0.6442915903356261
+Validation loss: 0.917717242773795
+Val Acc: 0.6595810866860224
+
+Saving best model
+Epoch 5:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 5
+Training loss: 0.9118885420962591
+Train Acc: 0.6522415402163769
+Validation loss: 0.8538589395632018
+Val Acc: 0.6660099543757777
+
+Saving best model
+Epoch 6:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 6
+Training loss: 0.8544673864683393
+Train Acc: 0.6599149701012754
+Validation loss: 0.8172692149285449
+Val Acc: 0.6693280796350062
+
+Saving best model
+Epoch 7:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 7
+Training loss: 0.8250545056485339
+Train Acc: 0.6618851750717224
+Validation loss: 0.793768058352123
+Val Acc: 0.6704686851928661
+
+Saving best model
+Epoch 8:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 8
+Training loss: 0.806446876842014
+Train Acc: 0.6651342850229858
+Validation loss: 0.7881692587737216
+Val Acc: 0.6674616341766901
+Epoch 9:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 9
+Training loss: 0.8003536138086688
+Train Acc: 0.6646503750302444
+Validation loss: 0.7772453600010335
+Val Acc: 0.6716092907507258
+
+Saving best model
+Epoch 10:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 10
+Training loss: 0.7917264947904408
+Train Acc: 0.6665514500017282
+Validation loss: 0.7749967444811435
+Val Acc: 0.671401907922024
+  0%|          | 0/10 [00:00<?, ?it/s]
+Epoch 1:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 1
+Training loss: 0.7822773945924327
+Train Acc: 0.6701116449483253
+Validation loss: 0.7708895819274005
+Val Acc: 0.6692243882206553
+
+Saving best model
+Epoch 2:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 2
+Training loss: 0.78039491255639
+Train Acc: 0.6691783899623241
+Validation loss: 0.7708171221199415
+Val Acc: 0.6719203649937785
+
+Saving best model
+Epoch 3:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 3
+Training loss: 0.7770029336378719
+Train Acc: 0.6691783899623241
+Validation loss: 0.7673343162465569
+Val Acc: 0.6700539195354624
+Epoch 4:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 4
+Training loss: 0.7703716266221105
+Train Acc: 0.6738446648923301
+Validation loss: 0.7675811523041188
+Val Acc: 0.6718166735794276
+Epoch 5:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 5
+Training loss: 0.7685775204258071
+Train Acc: 0.6738446648923301
+Validation loss: 0.7663691784964491
+Val Acc: 0.6706760680215678
+Epoch 6:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 6
+Training loss: 0.7663008749485016
+Train Acc: 0.6756420448653693
+Validation loss: 0.7645307674707956
+Val Acc: 0.6712982165076732
+Epoch 7:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 7
+Training loss: 0.7639476155378542
+Train Acc: 0.6759531298607031
+Validation loss: 0.768553407381702
+Val Acc: 0.671505599336375
+Epoch 8:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 8
+Training loss: 0.7620652961138203
+Train Acc: 0.6746050948809236
+Validation loss: 0.7634237251731734
+Val Acc: 0.6717129821650767
+Epoch 9:   0%|          | 0/905 [00:00<?, ?it/s]
+
+Epoch 9
+Training loss: 0.7615001872428873
+Train Acc: 0.675296394870554
+Validation loss: 0.7637855823071588
+Val Acc: 0.6721277478224803
+
+Saving best model
+Early Stopping activated at epoch - 9
+Use the checkpoint at epoch -  6
+Test Acc with Resnet50d:  0.6624625245528791
+Test Acc with ViT:  0.6624625245528791
